@@ -70,8 +70,8 @@ ul {
 div .a-btn {
   color: green;
 }
-div .a-btn:hover {
-  color: black;
+#a-btn:hover {
+  background-color: black;
 }
 
 @media (max-width:960px) {
