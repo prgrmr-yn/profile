@@ -96,7 +96,10 @@ div .a-btn {
 }
 form {
   padding: 15px;
+  display: inline-block
 }
 input[type=submit] {
   color: rgb(175, 42, 95)
+}
+input[type=text]{
 }
