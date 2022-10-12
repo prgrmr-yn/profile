@@ -5,7 +5,11 @@
   border-radius: 50%;
 }
 h1{
-  color: rgb(79, 75, 75)
+  color: rgb(79, 75, 75);
+  background: -webkit-linear-gradient(344deg, rgb(245, 6, 153), rgb(9, 63, 241));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 p>a, a{
