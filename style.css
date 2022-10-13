@@ -5,8 +5,7 @@
   border-radius: 50%;
 }
 h1{
-  color: rgb(79, 75, 75);
-  background: -webkit-linear-gradient(344deg, rgb(245, 6, 153), rgb(9, 63, 241));
+  background: linear-gradient(344deg, rgb(245, 6, 153), rgb(9, 63, 241));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -34,7 +33,7 @@ p>a:hover {
 }
 
 h2 {
-  color: green;
+  color: rgb(10, 122, 10);
 }
 
 body {
@@ -76,7 +75,7 @@ ul {
 }
 
 div .a-btn {
-  color: green;
+  color: rgb(20, 250, 20);
 }
 #a-btn:hover {
   background-color: black;
@@ -102,6 +101,12 @@ form {
   padding: 15px;
   display: inline-block
 }
+
+input {
+
+  margin-bottom: 10px;
+}
+
 input[type=submit] {
   color: white;
   background-color: grey;
@@ -114,4 +119,19 @@ input[type=submit] {
 input[type=submit]:hover {
   text-shadow: -1px -1px 5px darkgrey;
   box-shadow: -1px  -1px 5px darkgrey;
+
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  border:3px solid #ccc;
+  -webkit-transition: 0.5s;
+  outline: none;
+  padding: 5px 10px;
+
+}
+
+input[type=text]:focus {
+  border: 2px solid #555;
+
 }
