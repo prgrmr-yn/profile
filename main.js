@@ -8,7 +8,6 @@ send.addEventListener('click', e=>{
   username.value = ''
   content.value = ''
   document.getElementById('sent').innerHTML = '<strong> sent</strong>'
-  alert('sent')
   setTimeout(() => {
     document.getElementById('sent').style.display = 'none'
   }, 2000);
