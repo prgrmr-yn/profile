@@ -3,13 +3,12 @@ const content = document.getElementById('content')
 const send = document.getElementById('send')
 
 send.addEventListener('click', e=>{
-  alert('not sure')
   e.preventDefault()
   discordIt()
-  console.dir(username)
   username.value = ''
   content.value = ''
   document.getElementById('sent').innerHTML = '<strong> sent</strong>'
+  alert('sent')
   setTimeout(() => {
     document.getElementById('sent').style.display = 'none'
   }, 2000);
