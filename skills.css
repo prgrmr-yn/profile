@@ -43,20 +43,8 @@ body {
   font-family: cursive;
   margin:2%;
 }
-.link-card, .home-card {
-  color: lightgreen;
-  cursor: pointer;
-}
 
-.home-card {
-  min-width: 95%;
-  max-height: 90px;
-}
 
-.link-card {
-  padding: 10px 220px;
-  box-shadow: 2px 2px 5px 4px green;
-}
 
 .card:hover,.card {
   color: rgb(88 199 250 / 100%);
