@@ -1,4 +1,5 @@
 import {webhookDiscord } from "./api.js";
+console.log(process.env.MY_SECRET_ENV);     
 
 const username = document.getElementById('username')
 const content = document.getElementById('content')
