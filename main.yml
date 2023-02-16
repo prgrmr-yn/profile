@@ -1,2 +1,0 @@
-- name: Set environment variable
-  run: echo "::set-env name=MY_SECRET_ENV::${{ secrets.WEBHOOKDISCORD1 }}"
